@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.taitoubox {
+    position: relative;
+    height: 90px;
+    width: 100%;
+    background-color: #16567c
+}
+
+.menu ul li {
+    float: inherit;
+    /*设置浮动*/
+    list-style: none;
+    /*设置li的样式*/
+}
+
+.menu ul {
+    list-style-type: none;
+    /*移除列表前小标志。一个导航栏并不需要列表标记*/
+    margin: 0px;
+    padding: 0px;
+    /*标签左对齐*/
+}
+
+.menu li {
+    margin-top: 2px;
+    /*设置每个li标签的间距*/
+    float: inherit;
+    font-family: '楷体';
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #8F8E8E;
+    /*设置边框线*/
+    background-color: #EEEEEE;
+    border-radius: 3px;
+    /*圆角3PX*/
+}
+
+.menu li:hover {
+    background-color: #0188CA;
+}
+
+.menu a {
+    font-size: 20px;
+    border: 4px;
+    display: block;
+    /*display:block - 显示块元素的链接，让整体变为可点击链接区域（不只是文本），它允许我们指定宽度*/
+    color: #4197D0;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: white;
+    background-color: #0188CA;
+}
+
+.menu li:first-child a {
+    border-radius: 0px;
+    /*被选中后的边框圆角*/
+}
+
+.menu li:last-child a {
+    border-radius: 0px;
+}
+
+.daohangmenu {
+    position: relative;
+    float: right;
+    margin: 60px 3px 0 0;
+    background: #1B9AF7;
+    z-index: 3;
+}
+
+.daohangmenu ul li {
+    text-align: right;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.drop-down-menu {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: none;
+}
+
+.drop-down-content:hover .drop-down-menu {
+    display: inline;
+}
+
+.bigbox {
+    margin: 10px 0 0 0;
+    width: 230px;
+}
+
+.first {
+    background-color: #fff;
+    width: 180px;
+    height: 600px;
+    margin-left: 30px;
+    /*background-image: url(../images/未题-12.png);*/
+}
+
+.username {
+    width: 180px;
+    border-top: 10px;
+}
+
+.first a {
+    font-size: 20px;
+    color: #498EBA;
+    text-decoration: none;
+    /*a标签下划线去除*/
+}
+
+.first p {
+    font-size: 20px;
+    font-family: '楷体';
+    color: #A6A3A3;
+}
+
+.first span {
+    border-bottom: 2px;
+    color: #A6A3A3;
+}
+
+.first img {
+    border: 2px solid #8F8E8E;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.menu-right-box {
+    background: #eee;
+    position: relative;
+    margin: -610px 0 0 220px;
+    height: 36px;
+    border-bottom: #3F83AE solid 1px;
+}
+
+.menu-right-box ul {
+    margin: 10px 0 0 30px;
+    list-style: none;
+}
+
+.menu-right-box li {
+    float: left;
+    padding: 10px 40px 0 0;
+}
+
+.menu-right-box a:hover {
+    border-bottom: 4px #3F83AE solid;
+}
+
+.menu-right-box a {
+    text-decoration: none;
+    font-size: 21px;
+    font-family: 楷体;
+    color: #498EBA;
+}
+
+.search-table {
+    margin: 25px 0 0px 250px;
+}
+
+.date-output {
+    height: 563px;
+    background: white;
+    border: 1px white solid;
+    margin: -60px 0 0 220px;
+}
+
+.date-output table {
+    margin: 85px 0 0 10px;
+}
+
+.date-output th {
+    border: none;
+    padding: 6px 140px 6px 0;
+    margin: 0;
+}
+
+.date-output thead tr {
+    background: #209ED8;
+    color: white;
+    font-size: 21px;
+    font-family: 楷体;
+    margin: 0;
+}
+
+.date-output tbody td {
+    padding: 10px;
+}

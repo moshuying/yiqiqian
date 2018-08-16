@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="../../css/xiala_sman.css" type="text/css" rel="stylesheet" />
+    <link href="../../css/user_info.css" type="text/css" rel="stylesheet">
+    <title>业务员</title>
+    <link href="../../css/menu.css" type="text/css" rel="stylesheet">
+    <link href="../../css/buttons.css" type="text/css" rel="stylesheet" />
+    <link href="../../css/jisuanqi.css" type="text/css" rel="stylesheet" />
+    <script defer="defer" async src="../../js/jisuanqi.js"></script>
+</head>
+
+<body style="background-color: #D0D1D5;">
+    <div class="taitoubox">
+        <img style="margin-left: 90px; " src="../../images/banner.png" height="81">
+        <div class="daohangmenu">
+            <ul>
+                <li class="drop-down-content"> <a href="#" class="button button-primary button-small">菜单三</a>
+                    <ul class="drop-down-menu">
+                        <li><a href="../../login.html" class="button button-primary button-small">返回登录页面</a></li>
+                        <li><a href="../../index.html" class="button button-primary button-small">返回至主页面页面</a></li>
+                        <li><a href="../../calculator.html" class="button button-primary button-small">打开计算器</a>
+                            <div id="sDiv">
+                                <a onclick="feuxue()">:</a><input type="text" name="t" id="t" value="" />
+                                <br/>
+                                <input type="button" name="" id="" value="1" onclick="calCulate(this.value)" />
+                                <input type="button" name="" id="" value="2" onclick="calCulate(this.value)" />
+                                <input type="button" name="" id="" value="3" onclick="calCulate(this.value)" />
+                                <input type="button" name="" id="" value="4" onclick="calCulate(this.value)" /><br />
+                                <input type="button" name="" id="" value="5" onclick="calCulate(this.value)" />
+                                <input type="button" name="" id="" value="6" onclick="calCulate(this.value)" />
+                                <input type="button" name="" id="" value="7" onclick="calCulate(this.value)" />
+                                <input type="button" name="" id="" value="8" onclick="calCulate(this.value)" /><br />
+                                <input type="button" name="" id="" value="9" onclick="calCulate(this.value)" />
+                                <input type="button" name="" id="" value="0" onclick="calCulate(this.value)" />
+                                <input type="button" name="" id="" value="." onclick="calCulate(this.value)" />
+                                <input type="button" name="" id="" value="C" onclick="calCulate(this.value)" /><br/>
+                                <input type="button" name="" id="" value="+" onclick="calCulate(this.value)" />
+                                <input type="button" name="" id="" value="-" onclick="calCulate(this.value)" />
+                                <input type="button" name="" id="" value="*" onclick="calCulate(this.value)" />
+                                <input type="button" name="" id="" value="/" onclick="calCulate(this.value)" /><br/>
+                                <input type="button" style="background: #eea00f;" name="" id="equ" value="=" onclick="calCulate(this.value)" />
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bigbox">
+        <div class="first">
+            <img src="../../images/user_default.png" alt="1">
+            <p align="center">业务员</p>
+            <p align="center"><a href="#">chen</a></p>
+            <div class="menu">
+                <ul>
+                    <li><a href="search_user.html" target="back_index">查询用户</a></li>
+                    <li><a href="search_user_logs.html">查询用户日志</a></li>
+                    <li><a href="user_date_audit.html">用户资料审核</a></li>
+                    <li><a href="invoice_audit.html" target="back_index">发票审核</a></li>
+                    <li><a href="senior_management.html">高级管理</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="menu-right-box">
+        <!--定义列表下划线用的，别乱改 by:墨抒颖-->
+        <ul>
+            <li><a href="#">个人用户</a></li>
+            <li><a href="#">企业用户</a></li>
+        </ul>
+    </div>
+    <div class="search-table">
+        <span><font style="color: #498EBA;font-size: 20px">用户资料查询</font></span>
+        <span>用户名:<select style="padding: 7px">
+            <option value="">大声道</option>
+            <option value="">发票类型1</option>
+            <option value="">发票类型2</option>
+            <option value="">发票类型3</option>
+            <option value="">发票类型4</option>
+        </select>
+        </span>
+        <span>
+            手机号:
+            <input style="padding: 8px" type="text" placeholder="输入手机号">
+            提交时间:<input style="padding: 8px" type="text" placeholder="">
+            ~~<input style="padding: 8px" type="text" placeholder="">
+            是否审核:<select style="padding: 7px">
+            <option value="">--请选择--</option>
+            <option value="">是</option>
+            <option value="">否</option>
+        </select>
+            <button class="button button-longshadow-left button-small button-3d button-primary button-pill" style="font-size: 18px">查询</button>
+        </span>
+    </div>
+    <div class="date-output">
+        <table style="border-collapse:collapse;">
+            <caption></caption>
+            <thead>
+                <tr>
+                    <th style="padding: 0 30px 0 0">ID</th>
+                    <th style="padding: 0 30px 0 0">用户ID</th>
+                    <th>类别</th>
+                    <th>名称</th>
+                    <th>联系电话</th>
+                    <th style="padding: 0 30px 0 0">电子邮件</th>
+                    <th>提交时间</th>
+                    <th>状态</th>
+                    <th>操作项</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr></tr>
+            </tbody>
+            <tfoot>
+                <tr></tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+</html>
