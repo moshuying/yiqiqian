@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+.bigbox{
+	width: 230px;
+}
+.first{
+	background-color: #fff;
+	width: 180px;
+	height: 600px;
+	margin-left: 30px;
+	/*background-image: url(../images/未题-12.png);*/
+}
+.username{
+	width: 180px;
+	border-top:10px;
+}
+.first a{
+	font-size: 16px;
+	color: #A6A3A3;
+	text-decoration: none;/*a标签下划线去除*/
+}
+.first p{
+	font-size: 20px;
+	font-family:'楷体';
+	color: #A6A3A3;
+}
+.first span{
+	border-bottom: 2px;
+	color: #A6A3A3;
+}
+.first img{
+	border: 2px solid #8F8E8E;
+	margin-left: 10px;
+	margin-top: 10px;
+}
